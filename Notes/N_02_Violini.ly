@@ -4,7 +4,7 @@
 
 \version "2.18.0"
 
-NisiDominusVioliniEViola = {
+NisiDominusViolini = {
 	\relative c' {
 		\key a \minor \time 3/4 \tempoNisiDominus
 		

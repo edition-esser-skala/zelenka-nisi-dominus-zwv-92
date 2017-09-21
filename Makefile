@@ -5,7 +5,7 @@
 
 # change the following variables according to your project
 project = Weiß_RequiemInEs
-notes = Oboi VioliniEViola Soprano Alto Tenore Basso BassiEdOrgano
+notes = Oboi Violini Viola Soprano Alto Tenore Basso BassiEdOrgano
 parts = Bassi Organo Coro Violini Viola Oboi
 movements = NisiDominus
 

@@ -27,17 +27,19 @@ The file *NisiDominus.ly* allows you to work with an editor like Kile: Change th
 * *definitions.ly* – contains general definitions.
 * *NisiDominus.ly* – allows building movements/parts from within Kile.
 * Individual voices in folder *Notes*:
-    * N_01_VioliniEViola.ly
-    * N_02_Soprano.ly
-    * N_03_Alto.ly
-    * N_04_Tenore.ly
-    * N_05_Basso.ly
-    * N_06_BassiEdOrgano.ly
+    * N_01_Oboi.ly
+    * N_02_VioliniEViola.ly
+    * N_03_Soprano.ly
+    * N_04_Alto.ly
+    * N_05_Tenore.ly
+    * N_06_Basso.ly
+    * N_07_BassiEdOrgano.ly
 * Movement definitions in folder *Scores*:
     * S_NisiDominus.ly
 * Parts definitions in folder *Parts*:
     * P_Bassi.ly
     * P_Coro.ly
+    * P_Oboi.ly
     * P_Organo.ly
     * P_Viola.ly
     * P_Violini.ly

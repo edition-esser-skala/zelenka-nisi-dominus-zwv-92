@@ -30,8 +30,12 @@
 				}
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Violini" "Viola" } }
-						\clef treble \NisiDominusVioliniEViola
+						\set Staff.instrumentName = "Violini"
+						\NisiDominusViolini
+					}
+					\new Staff {
+						\set Staff.instrumentName = "Viola"
+						\NisiDominusViola
 					}
 				>>
 				\new ChoirStaff <<

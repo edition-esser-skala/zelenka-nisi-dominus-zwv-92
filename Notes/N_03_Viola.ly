@@ -4,14 +4,11 @@
 
 \version "2.18.0"
 
-NisiDominusBassiEdOrgano = {
-	\relative c {
-		\clef bass
+NisiDominusViola = {
+	\relative c' {
+		\clef treble
+% 		\clef alto
 		\key a \minor \time 3/4 \tempoNisiDominus
-		a8 a' a a a16 gis a8
+		
 	}
-}
-
-NisiDominusBassFigures = \figuremode {
-	
 }

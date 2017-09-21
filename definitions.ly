@@ -184,7 +184,7 @@ tempoNisiDominus = \tempoMarkup "Adagio"
 		\Score
 		\override MetronomeMark.font-series = #'medium
 		\compressFullBarRests
-% 		\override BarNumber.break-visibility = #'#(#f #t #t) % uncomment to show each bar number
+		\override BarNumber.break-visibility = #'#(#f #t #t) % uncomment to show each bar number
 	}
 	\context {
 		\StaffGroup
@@ -223,9 +223,10 @@ tempoNisiDominus = \tempoMarkup "Adagio"
 }
 
 \include "Notes/N_01_Oboi.ly"
-\include "Notes/N_02_VioliniEViola.ly"
-\include "Notes/N_03_Soprano.ly"
-\include "Notes/N_04_Alto.ly"
-\include "Notes/N_05_Tenore.ly"
-\include "Notes/N_06_Basso.ly"
-\include "Notes/N_07_BassiEdOrgano.ly"
+\include "Notes/N_02_Violini.ly"
+\include "Notes/N_03_Viola.ly"
+\include "Notes/N_04_Soprano.ly"
+\include "Notes/N_05_Alto.ly"
+\include "Notes/N_06_Tenore.ly"
+\include "Notes/N_07_Basso.ly"
+\include "Notes/N_08_BassiEdOrgano.ly"
