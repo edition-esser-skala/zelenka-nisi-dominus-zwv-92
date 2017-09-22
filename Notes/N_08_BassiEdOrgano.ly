@@ -50,7 +50,7 @@ NisiDominusBassiEdOrgano = {
 		g g g g g16 fis g8 %40
 		e e'16 dis e dis e dis e dis e8
 		a,4 h h,
-		\mvTr e,8\fE-\tuttiE e' e e e16 dis e8
+		e,8 e' \mvTr e\fE-\tuttiE e e16 dis e8
 		e, e'16 dis e dis e dis e dis e8
 		fis, fis' fis fis fis16 e fis8 %45
 		fis, fis'16 e fis e fis e fis e fis8
@@ -248,7 +248,7 @@ NisiDominusBassFigures = \figuremode {
 	<5 _+>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
 	<6>2.
 	r
-	<_->4 <_+>2 %35
+	<[_!]>4 <_+>2 %35
 	r2.
 	<5 _!>
 	<7 _+>
@@ -336,7 +336,7 @@ NisiDominusBassFigures = \figuremode {
 	<9> <8>2 %120
 	<5 3> <6\\ 3>4
 	<7 _+>2 <\t \t>4
-	<9 _->8 \bassFigureExtendersOn q <8 _!>4. q8 \bassFigureExtendersOff
+	<9 _!>8. \bassFigureExtendersOn q16 <8 _!>4. q8 \bassFigureExtendersOff
 	<5 _!>8 \bassFigureExtendersOn q <5 _+>4. q8 \bassFigureExtendersOff
 	<6>2 q4 %125
 	<7 [5+] _+> <6\\ [_+]> <5+ 3>
@@ -400,7 +400,7 @@ NisiDominusBassFigures = \figuremode {
 	r2.
 	<6 5 _!>2 <5 3>4 %185
 	<_!>2 <\t>4
-	<6 4>2 <5 3>4
+	<6 5>2 <5 3>4
 	<6>2 q4
 	<9 3>2 <8 3>4
 	<7 5+ 3>2. %190

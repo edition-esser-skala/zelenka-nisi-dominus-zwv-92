@@ -7,7 +7,7 @@
 NisiDominusTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
-		\key a \minor \time 3/4 \tempoNisiDominus
+		\key a \minor \time 3/4 \autoBeamOff \tempoNisiDominus
 	}
 }
 
