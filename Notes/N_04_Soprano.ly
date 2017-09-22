@@ -8,7 +8,7 @@ NisiDominusSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key a \minor \time 3/4 \autoBeamOff \tempoNisiDominus
-		\mvTr e'4 e r
+		\mvTr e'4\fE^\tuttiE e r
 		r e e
 		d4. d8 d4
 		d d d
@@ -262,7 +262,7 @@ NisiDominusSopranoLyrics = \lyricmode {
 	ma -- nu po --
 	ten -- tis,
 	i -- ta
-	fil -- i -- i ex -- cus -- %85
+	fi -- li -- i ex -- cus -- %85
 	so -- rum,
 	
 	i -- ta
