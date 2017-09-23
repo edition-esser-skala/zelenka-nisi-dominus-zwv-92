@@ -327,7 +327,7 @@ NisiDominusSopranoLyrics = \lyricmode {
 	lo -- _
 	_
 	rum, a --
-	men, a --
+	men. A --
 	_ _ %160
 	_ _ _
 	_ _

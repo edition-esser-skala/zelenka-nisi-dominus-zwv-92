@@ -289,8 +289,8 @@ NisiDominusTenoreLyrics = \lyricmode {
 	lo --
 	_
 	rum, a --
-	men,
-	a -- %160
+	men.
+	A -- %160
 	_ _
 	_
 	men, a --

@@ -24,10 +24,12 @@
 		}
 		\score {
 			<<
-				\new Staff {
-					\set Staff.instrumentName = "Oboi"
-					\NisiDominusOboi
-				}
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Oboi"
+						\NisiDominusOboi
+					}
+				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Violini"
@@ -74,7 +76,7 @@
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 110 }
+			\midi { \tempo 4 = 90 }
 		}
 	}
 }

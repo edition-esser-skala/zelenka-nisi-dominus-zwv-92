@@ -135,7 +135,7 @@ NisiDominusBassiEdOrgano = {
 		fis4. fis8 g e %125
 		fis4 ais h
 		g8 e fis4 fis,
-		h8 h' h h \mvTr h16\p-\solo ais h8
+		h8 h' \mvTr h\p-\solo h h16 ais h8
 		h, h'16 ais h ais h ais h ais h8
 		h, h' h h h16 ais h8 %130
 		fis fis fis fis fis16 e fis8
@@ -217,8 +217,8 @@ NisiDominusBassFigures = \figuremode {
 	r2.
 	r
 	<[9] 7>4. \bassFigureExtendersOn <9 7>8 <[8] 6\\>4 \bassFigureExtendersOff
-	<6\\>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
-	<9 6>2 \bassFigureExtendersOn <8 6>4 \bassFigureExtendersOff %5
+	<6\\>2.
+	<9 6>4. \bassFigureExtendersOn q8 <8 6>4 \bassFigureExtendersOff %5
 	<6>2.
 	<9 3>2 <8 [6]>4
 	<6 3>8 <\t \t> <6 4\+ 2>2
@@ -260,7 +260,7 @@ NisiDominusBassFigures = \figuremode {
 	r
 	<[9] 7>4 <[8] [\t]> <6\\> %45
 	q2.
-	<9 6>4 \bassFigureExtendersOn <8 6> \bassFigureExtendersOff r
+	<9 6>4 <8 \t> r
 	<6>2 <\t>4
 	<9> <8> <6\\>
 	<7 [_+]> <6\\ 4\+ 2>2 %50
@@ -269,9 +269,9 @@ NisiDominusBassFigures = \figuremode {
 	<6 5>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
 	<9 7 5>4 <8 6\\ \t>2
 	<6\\ 3>2 <\t \t>4 %55
-	<[9+] 7> <[8] 6> <\t \t>
+	<9 [7+]> <[8] 6> <\t \t>
 	<6>2 <\t>4
-	<[9] [7]> <[8] [6\\]> <\l [5]>
+	<[9] [7] [4]> <[8] [6\\] [3]> <\l [5]>
 	<7 5 [_+]> <[6\\] 4\+ 2>2
 	<7 [5+] _+>8 <\t \t \t> <5+ 3>4 <8 _!> %60
 	<6\\ _+> <[5+] _+> <\t \t>
@@ -323,7 +323,7 @@ NisiDominusBassFigures = \figuremode {
 	r2.
 	<5>
 	q
-	<6>8 <_+> r2 %110
+	<6>8 <_+> r4 <[7] [_+]> %110
 	<5>2.
 	<7>4 <6>2
 	<[5+] _+>2.
@@ -344,10 +344,10 @@ NisiDominusBassFigures = \figuremode {
 	<5+ 3>2.
 	<[5+]>
 	<[5+] _+> %130
-	<5+ 4>8 \bassFigureExtendersOn q <5+ _+>4. q8 \bassFigureExtendersOff
+	<5+ 4>4. \bassFigureExtendersOn q8 <5+ _+> q \bassFigureExtendersOff
 	<6 [_+]>2 <\t \t>4
 	<5 _!>2 <7 _+>4
-	r2.
+	<[_!]>2.
 	<6 5 [_+]>4 <5 _+> <\t \t> %135
 	<9 3> <8>2
 	<7 [5+] _+>4 <\t \t \t> <6 4>
@@ -389,7 +389,7 @@ NisiDominusBassFigures = \figuremode {
 	<[9]> <[8]> r
 	<7> <6> <\t>
 	<_->2. %175
-	<6 4->8. q16 \bassFigureExtendersOn <6 3>4. q8 \bassFigureExtendersOff
+	<6 4->8. \bassFigureExtendersOn q16 <6 3>4. q8 \bassFigureExtendersOff
 	<7 _+>4 <9> <8>
 	<5 4> <\t _+> <6>
 	<9> <8> r

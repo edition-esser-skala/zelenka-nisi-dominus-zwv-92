@@ -313,8 +313,8 @@ NisiDominusAltoLyrics = \lyricmode {
 	lo -- rum,
 	sae -- cu -- lo --
 	rum, a --
-	men,
-	a -- %160
+	men.
+	A -- %160
 	men, a --
 	men,
 	a --
