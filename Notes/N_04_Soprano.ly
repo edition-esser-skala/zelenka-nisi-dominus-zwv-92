@@ -70,7 +70,7 @@ NisiDominusSopranoNotes = {
 		dis2 e4~ %60
 		e8[ cis] dis2
 		e d4~
-		d c h
+		d c! h
 		ais4. ais8 h4~
 		h h( ais) %65
 		h2 r4
@@ -84,7 +84,7 @@ NisiDominusSopranoNotes = {
 		dis8([ cis)] dis4 r
 		R2.
 		r4 h g'
-		h fis8 g a8. g16
+		g fis8 g a8. g16
 		fis8([ e)] fis4 r %90
 		r e dis?
 		r c! h

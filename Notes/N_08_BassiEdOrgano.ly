@@ -120,7 +120,7 @@ NisiDominusBassiEdOrgano = {
 		fis d d d d16 c d8 %110
 		g, g'16 fis g fis g a g fis g8
 		c, c c c c16 h c8
-		\mvTr h\fE-\tutti h'16 ais h ais h c h ais h8
+		h \mvTr h'16\fE-\tutti ais h ais h c h ais h8
 		e,, e' e e e16 dis e8
 		e, e'16 dis e dis e fis e dis e8 %115
 		fis, fis' fis fis fis16 e fis8
@@ -216,7 +216,7 @@ NisiDominusBassiEdOrgano = {
 NisiDominusBassFigures = \figuremode {
 	r2.
 	r
-	<7>4. \bassFigureExtendersOn q8 <6\\>4 \bassFigureExtendersOff
+	<[9] 7>4. \bassFigureExtendersOn <9 7>8 <[8] 6\\>4 \bassFigureExtendersOff
 	<6\\>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
 	<9 6>2 \bassFigureExtendersOn <8 6>4 \bassFigureExtendersOff %5
 	<6>2.
@@ -225,10 +225,10 @@ NisiDominusBassFigures = \figuremode {
 	<7 _+>2.
 	r %10
 	r
-	<9 7>4 <8 6>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	<9 7>4 <8 [6\\]>4. \bassFigureExtendersOn <8 6\\>8 \bassFigureExtendersOff
 	<6\\>2.
 	<9 7>4 <8 6>2
-	<8>2 <\t>4 %15
+	<6>2 <\t>4 %15
 	<9 7>4 <8 6>2
 	<6 5>4 <6 4\+ 2> <\t \t \t>
 	<6>2.
@@ -263,7 +263,7 @@ NisiDominusBassFigures = \figuremode {
 	<9 6>4 \bassFigureExtendersOn <8 6> \bassFigureExtendersOff r
 	<6>2 <\t>4
 	<9> <8> <6\\>
-	<7> <6\\ 4\+ 2>2 %50
+	<7 [_+]> <6\\ 4\+ 2>2 %50
 	<5+ _+>2.
 	<_!>
 	<6 5>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
@@ -313,7 +313,7 @@ NisiDominusBassFigures = \figuremode {
 	r2 <5 _+>4
 	r <5 3> <6>
 	r <5> <6>
-	q <5> <_+> %100
+	q <[9] 5> <_+> %100
 	<[6]> <4> <_+>
 	r2.
 	r
@@ -336,7 +336,7 @@ NisiDominusBassFigures = \figuremode {
 	<9> <8>2 %120
 	<5 3> <6\\ 3>4
 	<7 [5+] _+>2 <\t \t \t>4
-	<9 _!>8. \bassFigureExtendersOn q16 <8 _!>4. q8 \bassFigureExtendersOff
+	<[10] [4]>8. \bassFigureExtendersOn <10 4>16 <8 [_!]>4. <8 _!>8 \bassFigureExtendersOff
 	<5 _!>8 \bassFigureExtendersOn q <5 _+>4. q8 \bassFigureExtendersOff
 	<6>2 q4 %125
 	<7 [5+] _+> <6\\ [_+]> <5+ 3>
@@ -370,26 +370,26 @@ NisiDominusBassFigures = \figuremode {
 	<9 7>2 <8 6>4
 	<6 3>2 <\t \t>4 %155
 	<9 3>4 \bassFigureExtendersOn <8 3> <6 3> \bassFigureExtendersOff
-	<6> <_+> r
+	<6> <[7] _+> r
 	<6 5> <4> <_+>
 	r2.
 	<7>4 <6><5> %160
-	<9> <8>2
+	<9 [7]> <8 [6]>2
 	<7>4 <6>2
 	<6 5>4 <4> <3>
 	r2.
 	<7>4 <6->2 %165
 	<6 [5-]>8 <\t \t> <6 3>4 <6 4>
-	<5 4>4.. \bassFigureExtendersOn q16 <5 3>4 \bassFigureExtendersOff
+	<5 4>4.. \bassFigureExtendersOn q16 <5 3>8 q8 \bassFigureExtendersOff
 	<6>2.
 	<7 _->4 \bassFigureExtendersOn <6 _-> <5 _-> \bassFigureExtendersOff
 	<[9-] _+> <8 \t> <5 _+> %170
 	<6> r <5>
-	<_-> <4> <_+>
-	r2.
-	<7>4 <6> <\t>
+	<[6] [5] _-> <4> <_+>
+	<[9]> <[8]> r
+	<7> <6> <\t>
 	<_->2. %175
-	<6 4->4 \bassFigureExtendersOn <6 3>4. q8 \bassFigureExtendersOff
+	<6 4->8. q16 \bassFigureExtendersOn <6 3>4. q8 \bassFigureExtendersOff
 	<7 _+>4 <9> <8>
 	<5 4> <\t _+> <6>
 	<9> <8> r
@@ -412,8 +412,8 @@ NisiDominusBassFigures = \figuremode {
 	r
 	r
 	r4 <5 3>2
-	<_+>4 <6> <6\\>
-	<6> <7 _+> r %200
+	<_+>4 <6> <[_+]>
+	<6> <7 _+> <[_!]> %200
 	<6 5> <5 4> <\t _+>
 	r2. %202 FINIS
 }
