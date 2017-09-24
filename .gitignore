@@ -11,3 +11,4 @@ Manuscript/*
 *.eps
 .~lock*
 *.kate-swp
+*.ps
