@@ -2,7 +2,7 @@
 
 Engraving files for LilyPond 2.18.0
 
-First version, in progress
+First version, September 2017
 
 
 ## Build instructions
@@ -28,12 +28,13 @@ The file *NisiDominus.ly* allows you to work with an editor like Kile: Change th
 * *NisiDominus.ly* – allows building movements/parts from within Kile.
 * Individual voices in folder *Notes*:
     * N_01_Oboi.ly
-    * N_02_VioliniEViola.ly
-    * N_03_Soprano.ly
-    * N_04_Alto.ly
-    * N_05_Tenore.ly
-    * N_06_Basso.ly
-    * N_07_BassiEdOrgano.ly
+    * N_02_Violini.ly
+    * N_03_Viola.ly
+    * N_04_Soprano.ly
+    * N_05_Alto.ly
+    * N_06_Tenore.ly
+    * N_07_Basso.ly
+    * N_08_BassiEdOrgano.ly
 * Movement definitions in folder *Scores*:
     * S_NisiDominus.ly
 * Parts definitions in folder *Parts*:

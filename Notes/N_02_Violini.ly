@@ -4,6 +4,17 @@
 
 \version "2.18.0"
 
+NisiDominusVioliniIncipit = \markup {
+	"Violini" \hspace #-18.8 \score {
+		\new Staff \with {
+			\remove Time_signature_engraver
+		} {
+			\clef bass s4 \bar empty
+		}
+		\layout { }
+	} \hspace #-.5
+}
+
 NisiDominusViolini = {
 	\relative c' {
 		\key a \minor \time 3/4 \tempoNisiDominus

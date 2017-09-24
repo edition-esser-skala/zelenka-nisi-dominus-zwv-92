@@ -4,6 +4,17 @@
 
 \version "2.18.0"
 
+NisiDominusAltoIncipit = \markup {
+	"Alto" \hspace #-17.3 \score {
+		\new Staff \with {
+			\remove Time_signature_engraver
+		} {
+			\clef alto s4 \bar empty
+		}
+		\layout { }
+	} \hspace #-.5
+}
+
 NisiDominusAltoNotes = {
 	\relative c' {
 		\clef treble

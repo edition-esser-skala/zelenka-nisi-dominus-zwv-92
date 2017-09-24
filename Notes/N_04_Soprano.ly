@@ -4,6 +4,17 @@
 
 \version "2.18.0"
 
+NisiDominusSopranoIncipit = \markup {
+	"Soprano" \hspace #-19.6 \score {
+		\new Staff \with {
+			\remove Time_signature_engraver
+		} {
+			\clef soprano s4 \bar empty
+		}
+		\layout { }
+	} \hspace #-.5
+}
+
 NisiDominusSopranoNotes = {
 	\relative c' {
 		\clef treble

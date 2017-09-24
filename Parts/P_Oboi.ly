@@ -21,117 +21,20 @@
 		\header {
 			title = \markup {
 				\medium \center-column {
-					\normal-text \larger \larger \line { Requiem in Es }
-					\smaller \smaller \smaller \line { " " }
+					\normal-text \larger \larger \line { Nisi Dominus }
+					\smaller \smaller \smaller \line { ZWV 92 }
 				}
 			}
-			subtitle = \markup { \vspace #3 \normal-text \larger \larger "1 REQUIEM" }
-			composer = \markup { \larger "Johann Baptist Weiß (1813–1850)" }
+			subtitle = \markup { \vspace #3 \normal-text \larger \larger " " }
+			composer = \markup { \larger "Dresden, 1726" }
 		}
+		\paper { max-systems-per-page = #10 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Violino I"
-						\RequiemViolinoI
-					}
-				>>
-			>>
-		}
-	}
-	\bookpart {
-		\header {
-			subtitle = \markup { \vspace #3 \normal-text \larger \larger "2 DIES IRAE" }
-			composer = \markup { \larger " " }
-		}
-		\score {
-			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Violino I"
-						\DiesIraeViolinoI
-					}
-				>>
-			>>
-		}
-	}
-	\bookpart {
-		\header {
-			subtitle = \markup { \vspace #3 \normal-text \larger \larger "3 DOMINE" }
-			composer = \markup { \larger " " }
-		}
-		\score {
-			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Violino I"
-						\DomineViolinoI
-					}
-				>>
-			>>
-		}
-	}
-	\bookpart {
-		\header {
-			subtitle = \markup { \vspace #3 \normal-text \larger \larger "4 SANCTUS" }
-			composer = \markup { \larger " " }
-		}
-		\score {
-			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Violino I"
-						\SanctusViolinoI
-					}
-				>>
-			>>
-		}
-	}
-	\bookpart {
-		\header {
-			subtitle = \markup { \vspace #3 \normal-text \larger \larger "5 BENEDICTUS" }
-			composer = \markup { \larger " " }
-		}
-		\score {
-			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Violino I"
-						\BenedictusViolinoI
-					}
-				>>
-			>>
-		}
-	}
-	\bookpart {
-		\header {
-			subtitle = \markup { \vspace #3 \normal-text \larger \larger "6 AGNUS DEI" }
-			composer = \markup { \larger " " }
-		}
-		\score {
-			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Violino I"
-						\AgnusDeiViolinoI
-					}
-				>>
-			>>
-		}
-	}
-	\bookpart {
-		\header {
-			subtitle = \markup { \vspace #3 \normal-text \larger \larger "7 CUM SANCTIS" }
-			composer = \markup { \larger " " }
-		}
-		\score {
-			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Violino I"
-						\CumSanctisViolinoI
-					}
-				>>
+				\new Staff {
+					\set Staff.instrumentName = "Oboi"
+					\NisiDominusOboi
+				}
 			>>
 		}
 	}

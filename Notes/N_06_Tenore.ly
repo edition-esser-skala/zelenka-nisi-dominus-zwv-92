@@ -4,6 +4,17 @@
 
 \version "2.18.0"
 
+NisiDominusTenoreIncipit = \markup {
+	"Tenore" \hspace #-18.8 \score {
+		\new Staff \with {
+			\remove Time_signature_engraver
+		} {
+			\clef tenor s4 \bar empty
+		}
+		\layout { }
+	} \hspace #-.5
+}
+
 NisiDominusTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"

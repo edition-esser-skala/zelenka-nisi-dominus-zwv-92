@@ -22,6 +22,7 @@
 			subtitle = \markup { \vspace #3 \normal-text \larger \larger " " }
 			composer = \markup { \larger "Dresden, 1726" }
 		}
+		\paper { max-systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
@@ -32,7 +33,9 @@
 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Violini"
+						\set Staff.instrumentName = \NisiDominusVioliniIncipit
+						\override Staff.InstrumentName.self-alignment-Y = ##f
+						\override Staff.InstrumentName.self-alignment-X = #RIGHT
 						\NisiDominusViolini
 					}
 					\new Staff {
@@ -42,19 +45,25 @@
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Soprano"
+						\set Staff.instrumentName = \NisiDominusSopranoIncipit
+						\override Staff.InstrumentName.self-alignment-Y = ##f
+						\override Staff.InstrumentName.self-alignment-X = #RIGHT
 						\new Voice = "Soprano" { \dynamicUp \NisiDominusSopranoNotes }
 					}
 					\new Lyrics \lyricsto Soprano \NisiDominusSopranoLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = "Alto"
+						\set Staff.instrumentName = \NisiDominusAltoIncipit
+						\override Staff.InstrumentName.self-alignment-Y = ##f
+						\override Staff.InstrumentName.self-alignment-X = #RIGHT
 						\new Voice = "Alto" { \dynamicUp \NisiDominusAltoNotes }
 					}
 					\new Lyrics \lyricsto Alto \NisiDominusAltoLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = "Tenore"
+						\set Staff.instrumentName = \NisiDominusTenoreIncipit
+						\override Staff.InstrumentName.self-alignment-Y = ##f
+						\override Staff.InstrumentName.self-alignment-X = #RIGHT
 						\new Voice = "Tenore" { \dynamicUp \NisiDominusTenoreNotes }
 					}
 					\new Lyrics \lyricsto Tenore \NisiDominusTenoreLyrics

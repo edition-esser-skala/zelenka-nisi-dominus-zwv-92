@@ -6,9 +6,9 @@
 
 #(ly:set-option 'relative-includes #t)
 
-\include "Scores/S_NisiDominus.ly"
+% \include "Scores/S_NisiDominus.ly"
 
-% \include "Parts/P_Oboi.ly"
+\include "Parts/P_Oboi.ly"
 % \include "Parts/P_Violini.ly"
 % \include "Parts/P_Viola.ly"
 % \include "Parts/P_Coro.ly"

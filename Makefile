@@ -4,7 +4,8 @@
 
 
 # change the following variables according to your project
-project = Weiß_RequiemInEs
+project = Zelenka_Nisi_Dominus_ZWV92
+zipname = Zelenka_ZWV92_Engraving_Files
 notes = Oboi Violini Viola Soprano Alto Tenore Basso BassiEdOrgano
 parts = Bassi Organo Coro Violini Viola Oboi
 movements = NisiDominus
@@ -60,7 +61,7 @@ score: $(movements)
 all: score parts
 
 archive:
-	zip $(project).zip README.md Makefile \
+	zip $(zipname).zip README.md Makefile \
 	*.ly Notes/*.ly Parts/*.ly Scores/*.ly
 
 space := $(subst ,, )
