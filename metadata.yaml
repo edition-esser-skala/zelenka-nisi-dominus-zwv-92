@@ -1,17 +1,21 @@
-composer: Zelenka, Jan Dismas
+composer:
+  last: Zelenka
+  first: Jan Dismas
 title: Nisi Dominus
 id: ZWV 92
 genre: psalm
-scoring: S, A, T, B (solo), S, A, T, B (coro), ob, vl, vla, b, org
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 vl, vla, b, org
+license: cc-by-sa-4.0
 sources:
-  1:
+  A1:
     siglum: D-Dl
     shelfmark: Mus.2358-D-61,4
-    type: autograph manuscript
     date: 1726
     rism: 212006573
-    url: http://digital.slub-dresden.de/id426604040
-github: zelenka-nisi-dominus-zwv-92
+    url: https://digital.slub-dresden.de/id426604040
+    license: public domain
+    principal: true
 imslp: Nisi_Dominus,_ZWV_92_(Zelenka,_Jan_Dismas)
-notes:
-
+parts:
+  ob12: Oboe I, II
+  vl12: Violino I, II
